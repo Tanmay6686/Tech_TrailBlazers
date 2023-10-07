@@ -1,2 +1,7 @@
-# Tech_TrailBlazers
-1) Tanishq Kelvalkar 2)Karan Didwagh 3)Tanmay Gadekar 4) Mann Shukla  PS- Community social change Platform
+# Hackmania2023
+
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
