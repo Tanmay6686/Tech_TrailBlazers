@@ -64,7 +64,7 @@ class _EventyoujoinedWidgetState extends State<EventyoujoinedWidget> {
             },
           ),
           title: Text(
-            'events you joined',
+            'Events you joined',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Outfit',
                   color: Colors.black,

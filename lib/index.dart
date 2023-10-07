@@ -15,3 +15,4 @@ export '/editprofilepage/editprofilepage_widget.dart'
     show EditprofilepageWidget;
 export '/my_petition/my_petition_widget.dart' show MyPetitionWidget;
 export '/myevent/myevent_widget.dart' show MyeventWidget;
+export '/info_page/info_page_widget.dart' show InfoPageWidget;

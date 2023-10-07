@@ -164,6 +164,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'myevent',
           path: '/myevent',
           builder: (context, params) => MyeventWidget(),
+        ),
+        FFRoute(
+          name: 'InfoPage',
+          path: '/infoPage',
+          builder: (context, params) => InfoPageWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

@@ -87,7 +87,13 @@ class _EventschedulingWidgetState extends State<EventschedulingWidget> {
                                         Text(
                                           'Create Event',
                                           style: FlutterFlowTheme.of(context)
-                                              .headlineSmall,
+                                              .headlineSmall
+                                              .override(
+                                                fontFamily: 'Outfit',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .primaryText,
+                                              ),
                                         ),
                                         FlutterFlowIconButton(
                                           borderColor: Colors.transparent,
@@ -776,7 +782,7 @@ class _EventschedulingWidgetState extends State<EventschedulingWidget> {
                                   0.0, 0.0, 0.0, 0.0),
                               iconPadding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 0.0),
-                              color: Color(0xFFDDE6ED),
+                              color: Color(0xFFB5BFD2),
                               textStyle: FlutterFlowTheme.of(context)
                                   .titleMedium
                                   .override(

@@ -9,6 +9,7 @@ import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import 'package:simple_gradient_text/simple_gradient_text.dart';
 import 'singup_model.dart';
 export 'singup_model.dart';
 
@@ -141,14 +142,18 @@ class _SingupWidgetState extends State<SingupWidget>
                     borderRadius: BorderRadius.circular(0.0),
                   ),
                   alignment: AlignmentDirectional(0.00, 0.00),
-                  child: Text(
-                    'Voices United',
-                    style: TextStyle(
+                  child: GradientText(
+                    'Social-Change-Union',
+                    style: GoogleFonts.getFont(
+                      'Readex Pro',
                       color: Colors.black,
                       fontWeight: FontWeight.w900,
-                      fontSize: 25.0,
+                      fontSize: 30.0,
                       fontStyle: FontStyle.normal,
                     ),
+                    colors: [Colors.black, Color(0xFF8491A1)],
+                    gradientDirection: GradientDirection.ttb,
+                    gradientType: GradientType.linear,
                   ),
                 ),
               ),
@@ -953,8 +958,9 @@ class _SingupWidgetState extends State<SingupWidget>
                                                                 .override(
                                                                   fontFamily:
                                                                       'Readex Pro',
-                                                                  color: Colors
-                                                                      .white,
+                                                                  color: FlutterFlowTheme.of(
+                                                                          context)
+                                                                      .primaryText,
                                                                 ),
                                                         elevation: 3.0,
                                                         borderSide: BorderSide(

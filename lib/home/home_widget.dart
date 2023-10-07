@@ -146,7 +146,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                           borderRadius: 20.0,
                           borderWidth: 1.0,
                           buttonSize: 40.0,
-                          fillColor: Color(0xFF8491A1),
+                          fillColor: Color(0xFFB5BFD2),
                           icon: Icon(
                             Icons.menu_sharp,
                             color: FlutterFlowTheme.of(context).primaryText,
